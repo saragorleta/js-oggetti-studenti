@@ -40,6 +40,18 @@ for (var i=0; i<studenti.length;i++){
     console.log(k +' '+ studenti[i][k]);
   }
 }
+
+var nome=prompt('inserisci il tuo nome');
+var cognome=prompt('inserisci il tuo cognome');
+var eta=prompt('inserisci la tua età');
+var datiInseriti={
+  'nome':nome,
+  'cognome':cognome,
+  'eta':eta
+};
+studenti.push(datiInseriti);
+
+console.log(studenti);
 // var studenti={
 //   ['mario rossi'],
 //   ['luigi bianchi'],
