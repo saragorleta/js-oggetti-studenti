@@ -37,7 +37,7 @@ var studenti=[
 for (var i=0; i<studenti.length;i++){
   console.log(studenti[i]);
   for(var k in studenti[i]){
-    console.log(k +' '+ classi[i][k]);
+    console.log(k +' '+ studenti[i][k]);
   }
 }
 // var studenti={
